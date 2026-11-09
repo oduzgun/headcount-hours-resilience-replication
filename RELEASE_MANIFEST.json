@@ -45,7 +45,7 @@
   "files_sha256": {
     ".github/workflows/replication.yml": "755439aa4bbee405fb6e88e05c657b233e30f0ffc5c33d9569a6a76892e30ed8",
     ".gitignore": "e285d48b9155c01c5f0a9a2c99acbe25f6b5f7709001f6291d8c7927c9b9aac2",
-    "CITATION.cff": "035d2a5ed97bd9d0c79c673f6f5034ebb292e64a6ca8a10c3855132be9c8bcd2",
+    "CITATION.cff": "2eeb044e54c638623ec466c7a1f5b92705fa70360d0cd9d82c6c6cce4d8c9881",
     "DATA_ATTRIBUTION.md": "bfe4a07a98eed0021b1ec1a3245aac9dbcc02b89c00cb877262038f45f69814a",
     "LICENSE": "9fdd540c45ea88d9df2d8764a141c74924455faaf4d61ecd403ecace0de1e07c",
     "README.md": "77bc7057ec502de601bada54f898ca6fbb88780ded2a5a0d2ab48851d9281dec",

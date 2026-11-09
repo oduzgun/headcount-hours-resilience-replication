@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Düzgün"
     given-names: "Onur"
+    orcid: "https://orcid.org/0009-0007-6288-6141"
 version: "R3"
 date-released: "2026-11-09"
 doi: "10.5281/zenodo.24093367"

@@ -1,0 +1,33 @@
+name: Reproduce R3 analytical results
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  r3-reproduction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public file and frozen-science manifests
+        run: python3 scripts/verify_release.py
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.3'
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::data.table
+            any::ggplot2
+            any::scales
+      - name: Reproduce in isolated working directory
+        run: |
+          mkdir -p "$RUNNER_TEMP/r3-rerun"
+          cp -a code data "$RUNNER_TEMP/r3-rerun/"
+          (cd "$RUNNER_TEMP/r3-rerun" && Rscript --vanilla code/replication_244.R)
+      - name: Verify reproduced outputs
+        run: |
+          python3 scripts/verify_release.py --compare-rerun "$RUNNER_TEMP/r3-rerun/output/release_244"

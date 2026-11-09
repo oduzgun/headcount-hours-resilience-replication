@@ -1,0 +1,29 @@
+gate,status,observed,expected
+Frozen input hashes,PASS,5/5,5/5
+Event regions,PASS,244,244
+Event countries,PASS,27,27
+Legacy regions,PASS,243,243
+Balanced historical regions,PASS,232,232
+Balanced historical countries,PASS,26,26
+Sector cells: acute,PASS,2071,2071
+Sector cells: adaptation,PASS,2070,2070
+Sector cells: pandemic net,PASS,2070,2070
+Event identity maximum: persons (%),PASS,0.0999000999000978,0.09990009990009778
+Event identity maximum: hours (%),PASS,0.0316957210776545,0.03169572107765452
+Acute Spearman rho,PASS,0.543748476925682,0.5437484769256822
+Acute Kendall tau,PASS,0.388990082979154,0.3889900829791540
+Acute broad-category disagreement (%),PASS,39.344262295082,39.34426229508197
+Acute EU-benchmark disagreement (%),PASS,29.5081967213115,29.508196721311474
+Acute median rank displacement,PASS,33.5,33.5
+Acute p90 rank displacement,PASS,110,110
+Acute maximum rank displacement,PASS,222,222
+EU measurement gap (log pp),PASS,5.69884623012928,5.698846230129284
+EU Shapley total gap (log pp),PASS,5.69885354471023,5.698853544710314
+Follow-up 2020-2021 Spearman rho,PASS,0.643984321111565,0.6439843211115653
+Follow-up 2020-2021 broad disagreement (%),PASS,36.0655737704918,36.0655737704918
+Follow-up 2021-2022 Spearman rho,PASS,0.712590610014498,0.7125906100144975
+Follow-up 2021-2022 broad disagreement (%),PASS,34.016393442623,34.01639344262295
+Follow-up 2022-2023 Spearman rho,PASS,0.775781797274878,0.7757817972748784
+Follow-up 2022-2023 broad disagreement (%),PASS,33.1967213114754,33.19672131147541
+Figure 2 plotted rows,PASS,46,46
+Figure 3 plotted rows,PASS,20,20

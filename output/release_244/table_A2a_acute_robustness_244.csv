@@ -1,0 +1,18 @@
+restriction,regions,spearman_rho,broad_category_disagreement_pct
+Main 2019-2021 event universe,244,0.543748476925682,39.344262295082
+Former common 2008-2009/2019-2023 sample,243,0.538461281133909,39.5061728395062
+Countries with at least two NUTS-2 regions,239,0.550189866741676,38.9121338912134
+Strictly balanced 2000-2021 panel,232,0.581858351800634,37.9310344827586
+Excluding capital regions,217,0.57870155066071,40.0921658986175
+Excluding outermost regions,236,0.537176297662359,38.9830508474576
+Excluding capital and outermost regions,209,0.57358956832641,38.755980861244
+Excluding Croatia's regional 2020 break,240,0.546370596711748,41.25
+Excluding nine NUTS-2024-affected regions,235,0.528842224009912,40.4255319148936
+Excluding NUTS-2024-affected regions and Croatia's break,231,0.530986779337604,41.5584415584416
+Conservative endpoint b-flag exclusion (Poland and Croatia),223,0.499971864882179,47.9820627802691
+"Excluding provisional Eurostat observations, 2019-2020",215,0.56144316452945,43.2558139534884
+"Excluding any Eurostat flag (conservative stress test), 2019-2020",194,0.51217760392484,53.0927835051547
+Absolute persons-hours gap <= 10 log pp,223,0.517814940180411,40.3587443946188
+Absolute persons-hours gap <= 15 log pp,242,0.555577570414739,40.9090909090909
+Leave-one-country-out minimum,,0.464846186262116,
+Leave-one-country-out maximum,,0.611229724206936,

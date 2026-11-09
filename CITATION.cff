@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the accompanying paper."
+title: "Headcount or Hours Resilience? Replication Materials"
+type: software
+authors:
+  - family-names: "Düzgün"
+    given-names: "Onur"
+version: "R3"
+abstract: >-
+  Replication materials for the study of measure-dependent regional
+  labour-market resistance rankings across 244 EU-27 NUTS-2 regions during
+  the COVID-19 shock.
+keywords:
+  - regional resilience
+  - employment
+  - hours worked
+  - NUTS-2
+  - COVID-19
+  - replication
+
+# Public release date and DOI intentionally not assigned.

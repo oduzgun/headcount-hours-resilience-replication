@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=1 by 2,vertical sep=1.05cm},
+  width=\linewidth,
+  height=0.34\linewidth,
+  xmin=2000, xmax=2021,
+  grid=major,
+  grid style={draw=gray!25},
+  axis lines=left,
+  tick align=outside
+]
+\nextgroupplot[
+  title={A. Rank agreement (Spearman $\rho$)},
+  title style={at={(0,1)},anchor=south west},
+  ymin=0.50,ymax=0.92,
+  xticklabels={}
+]
+\addplot[plotdarkblue,thick,mark=*,mark size=1.5pt] coordinates {(2001,0.880572144) (2002,0.875629698) (2003,0.857072704) (2004,0.776381968) (2005,0.891561751) (2006,0.745557914) (2007,0.767597318) (2008,0.793884364) (2009,0.785292903) (2010,0.827477457) (2011,0.879956211) (2012,0.756523832) (2013,0.841367810) (2014,0.733788456) (2015,0.797207043) (2016,0.816565222) (2017,0.758308369) (2018,0.875076314) (2019,0.807691085) (2020,0.538461281)};
+\addplot[plotred,dashed,thick] coordinates {(2020,0.50) (2020,0.92)};
+\addplot[only marks,plotred,mark=*,mark size=2pt] coordinates {(2020,0.538461281)};
+\nextgroupplot[
+  title={B. Broad-category disagreement (\%)},
+  title style={at={(0,1)},anchor=south west},
+  ymin=18,ymax=41,
+  xtick={2002,2004,2006,2008,2010,2012,2014,2016,2018,2020},
+  xlabel={End year of adjacent-year comparison}
+]
+\addplot[plotdarkblue,thick,mark=*,mark size=1.5pt] coordinates {(2001,21.982758621) (2002,21.551724138) (2003,21.982758621) (2004,27.572016461) (2005,18.930041152) (2006,25.925925926) (2007,29.629629630) (2008,28.806584362) (2009,28.395061728) (2010,27.160493827) (2011,19.753086420) (2012,29.629629630) (2013,22.222222222) (2014,29.629629630) (2015,29.629629630) (2016,23.045267490) (2017,29.218106996) (2018,21.399176955) (2019,20.987654321) (2020,39.506172840)};
+\addplot[plotred,dashed,thick] coordinates {(2020,18) (2020,41)};
+\addplot[only marks,plotred,mark=*,mark size=2pt] coordinates {(2020,39.506172840)};
+\end{groupplot}
+\end{tikzpicture}

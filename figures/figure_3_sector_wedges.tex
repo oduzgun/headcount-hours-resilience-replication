@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+\begin{axis}[
+  width=0.70\linewidth,
+  height=0.66\linewidth,
+  xmin=-4,xmax=10.5,
+  ymin=0.5,ymax=10.5,
+  ytick={10,9,8,7,6,5,4,3,2,1},
+  yticklabels={{Information and communication},{Public administration, education and health},{Arts, recreation and other services},{Construction},{Industry excluding construction},{Trade, transport, accommodation and food},{Financial and insurance activities},{Professional and administrative services},{Real estate activities},{Agriculture, forestry and fishing}},
+  yticklabel style={font=\scriptsize,align=right},
+  xlabel={Median country--sector gap (log percentage points)},
+  grid=major,
+  grid style={draw=gray!25},
+  axis lines=left,
+  tick align=outside,
+  legend style={at={(0.5,-0.18)},anchor=north,draw=none,legend columns=2},
+  clip=false
+]
+\addplot[gray!70,thick,forget plot] coordinates {(0,0.5) (0,10.5)};
+\addplot[plotred,thick,forget plot] coordinates {(1.797175,10.13) (6.788071,10.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-0.795732,9.87) (5.820529,9.87)};
+\addplot[plotred,thick,forget plot] coordinates {(0.782714,9.13) (9.476443,9.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-2.957065,8.87) (5.335577,8.87)};
+\addplot[plotred,thick,forget plot] coordinates {(1.533035,8.13) (9.601686,8.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-0.033744,7.87) (9.243448,7.87)};
+\addplot[plotred,thick,forget plot] coordinates {(2.124791,7.13) (6.003809,7.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-0.551085,6.87) (4.784178,6.87)};
+\addplot[plotred,thick,forget plot] coordinates {(0.120826,6.13) (6.191072,6.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(0.498684,5.87) (3.613460,5.87)};
+\addplot[plotred,thick,forget plot] coordinates {(2.437765,5.13) (6.824434,5.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(1.665144,4.87) (6.639361,4.87)};
+\addplot[plotred,thick,forget plot] coordinates {(-1.433574,4.13) (4.596620,4.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-1.655740,3.87) (3.649548,3.87)};
+\addplot[plotred,thick,forget plot] coordinates {(-0.477271,3.13) (6.546822,3.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-1.645758,2.87) (4.356445,2.87)};
+\addplot[plotred,thick,forget plot] coordinates {(-1.380701,2.13) (6.833605,2.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-3.658599,1.87) (1.871119,1.87)};
+\addplot[plotred,thick,forget plot] coordinates {(-2.642156,1.13) (0.497231,1.13)};
+\addplot[plotdarkblue,thick,forget plot] coordinates {(-2.749782,0.87) (3.676392,0.87)};
+\addplot[only marks,plotred,mark=*,mark size=2pt] coordinates {(5.278774,10.13) (5.214480,9.13) (5.073073,8.13) (4.041857,7.13) (3.378524,6.13) (3.044322,5.13) (2.595089,4.13) (2.314419,3.13) (1.655220,2.13) (-1.093716,1.13)};
+\addlegendentry{2019--2020}
+\addplot[only marks,plotdarkblue,mark=triangle*,mark size=2.4pt] coordinates {(3.435370,9.87) (1.784699,8.87) (5.737486,7.87) (2.040289,6.87) (2.109392,5.87) (3.944260,4.87) (1.173160,3.87) (2.563541,2.87) (-0.046433,1.87) (0.030656,0.87)};
+\addlegendentry{2019--2021}
+\end{axis}
+\end{tikzpicture}

@@ -4,6 +4,14 @@
 
 This descriptive research compares regional labour-market resistance measured by **employed persons** versus **hours actually worked**, holding the 244 EU-27 NUTS-2 regions, sample, benchmarks, formulae, time windows and ranking rules fixed. The analysis **does not** identify causal policy or pandemic effects.
 
+## Cite this replication release
+
+The archived R3 replication package has DOI **[10.5281/zenodo.24093367](https://doi.org/10.5281/zenodo.24093367)**. Cite the research software separately from the unpublished manuscript:
+
+> Düzgün, O. (2026). *Headcount or Hours Resilience? Replication Materials* (R3) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24093367
+
+The immutable GitHub source snapshot is [tag `R3`](https://github.com/oduzgun/headcount-hours-resilience-replication/releases/tag/R3). The `main` branch may receive documentation updates after archival without changing that tagged snapshot.
+
 ## Reproduce the results
 
 Use **R 4.5.3** with `data.table`, `ggplot2` and `scales` installed. At the repository root:
@@ -37,4 +45,4 @@ The sectoral extension contains frozen, checked intermediate data and is **not**
 
 Source: Eurostat regional national accounts, series `nama_10r_2emhrw` and `nama_10r_3empers` (accessed 12 August 2026). The datasets in this release are author-generated derivatives; Eurostat does not endorse or accept responsibility for the transformations or interpretations. See `DATA_ATTRIBUTION.md` for the source terms and limitations.
 
-Original code is distributed under `LICENSE` (MIT); the Eurostat-derived data remain subject to Eurostat's applicable reuse conditions. Citation metadata for the unpublished research are in `CITATION.cff`. A public DOI will only be supplied when assigned.
+Original code is distributed under `LICENSE` (MIT); the Eurostat-derived data remain subject to Eurostat's applicable reuse conditions. Citation metadata for this software release, including its Zenodo DOI, are in `CITATION.cff`. The accompanying manuscript remains unpublished.

@@ -45,10 +45,10 @@
   "files_sha256": {
     ".github/workflows/replication.yml": "755439aa4bbee405fb6e88e05c657b233e30f0ffc5c33d9569a6a76892e30ed8",
     ".gitignore": "e285d48b9155c01c5f0a9a2c99acbe25f6b5f7709001f6291d8c7927c9b9aac2",
-    "CITATION.cff": "6c8313978b074d91d02cbfd6002e24c63a8064621021526a39b0a87cc30db3c7",
+    "CITATION.cff": "035d2a5ed97bd9d0c79c673f6f5034ebb292e64a6ca8a10c3855132be9c8bcd2",
     "DATA_ATTRIBUTION.md": "bfe4a07a98eed0021b1ec1a3245aac9dbcc02b89c00cb877262038f45f69814a",
     "LICENSE": "9fdd540c45ea88d9df2d8764a141c74924455faaf4d61ecd403ecace0de1e07c",
-    "README.md": "0d66d4654bdbb74ead3b03996fe92a7b69ed1d39d7c125d7cac188a67d5ac704",
+    "README.md": "77bc7057ec502de601bada54f898ca6fbb88780ded2a5a0d2ab48851d9281dec",
     "code/build_online_appendix_ecr.py": "73be45fb2eaffe46a942c44fcdd19d62e734770882022a6eca06f73fe3c5131c",
     "code/replication_244.R": "1007b0fed5c69fa47e5b9e1d4bfd8a0436a8aa29b1e3cdb6c7ba74fa2cc1af2d",
     "data/frozen_244/input_manifest_244.csv": "14a99f83643ad6d2f4664466ccd97eadf7e117e842c7bc5487c3de18caf962b5",

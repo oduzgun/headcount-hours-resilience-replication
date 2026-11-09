@@ -1,11 +1,14 @@
 cff-version: 1.2.0
-message: "If you use these materials, please cite the accompanying paper."
+message: "If you use these materials, please cite this software release; cite the accompanying manuscript separately when published."
 title: "Headcount or Hours Resilience? Replication Materials"
 type: software
 authors:
   - family-names: "Düzgün"
     given-names: "Onur"
 version: "R3"
+date-released: "2026-11-09"
+doi: "10.5281/zenodo.24093367"
+url: "https://github.com/oduzgun/headcount-hours-resilience-replication"
 abstract: >-
   Replication materials for the study of measure-dependent regional
   labour-market resistance rankings across 244 EU-27 NUTS-2 regions during
@@ -18,4 +21,3 @@ keywords:
   - COVID-19
   - replication
 
-# Public release date and DOI intentionally not assigned.
